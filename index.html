@@ -9,6 +9,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="libs/owlcarousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 </head>
 
@@ -36,7 +37,14 @@
     <div class="page__row">
         <div class="page__cell">
             <nav class="nav">
-                <ul class="nav__list">
+                <div class="nav__btn">
+                    <button data-target="#nav-main" type="button" class="btn-nav">
+                        <span class="btn-nav__line"></span>
+                        <span class="btn-nav__line"></span>
+                        <span class="btn-nav__line"></span>
+                    </button>
+                </div>
+                <ul class="nav__list nav__list--open" id="nav-main">
                     <li class="nav__item"><a class="nav__link link" href="#">Главная</a></li>
                     <li class="nav__item"><a class="nav__link link" href="#">О нас</a></li>
                     <li class="nav__item"><a class="nav__link link" href="#">Новости</a></li>
