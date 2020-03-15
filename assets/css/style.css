@@ -295,6 +295,7 @@ body {
 }
 
 .nav__btn {
+  display: none;
   text-align: right;
   margin: 0.7rem 0;
 }
